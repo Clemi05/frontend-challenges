@@ -15,24 +15,20 @@ body {
   height: 100vh;
 }
 
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .card-nft {
   flex-direction: column;
   background-color: hsl(216, 50%, 16%);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
   padding: 15px;
+  width: 310px;
 }
-
-/* .card-nft-img {
-
-} */
-
-/* .card-nft-img {
-  background-image: url(./images/image-equilibrium.jpg);
-  border-radius: 5px;
-  height: 30%;
-  width: 50%;
-} */
 
 .card-nft-img {
   position: relative;
@@ -44,12 +40,8 @@ body {
   border-radius: 10px;
 }
 
-/* .card-nft > h2 {
-  color: #fff;
-} */
-
 .card-nft-title {
-  font-size: 22px;
+  font-size: 24px;
   color: #fff;
   padding: 15px 0 0 0;
 }
@@ -60,27 +52,22 @@ body {
 
 .card-nft-details {
   color:hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 .card-nft-infos {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5em;
+  line-height: 1.1em;
 }
 
 .card-nft-price {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: hsl(178, 100%, 50%);
+  gap: 0.5em;
 }
 
 .card-nft-time {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   color: hsl(215, 51%, 70%);
+  gap: 0.5em;
 }
 
 .card-nft-creator {
