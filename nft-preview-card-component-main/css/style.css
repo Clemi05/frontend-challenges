@@ -55,7 +55,7 @@ body {
   content: "";
   background-color: hsl(178, 100%, 50%, 0.5);
   border-radius: 10px;
-  transition: transform 250ms ease-out;
+  transform: scale(0);
 }
 
 .card-nft-img::after {
@@ -66,10 +66,10 @@ body {
   left: 50%;
   position: absolute;
   content: "";
+  background: url(../images/icon-view.svg);
   background-repeat: no-repeat;
   background-size: 48px;
   transform: scale(0);
-  transition: transform 300ms ease-out;
 }
 
 .card-nft-img:hover::before {
@@ -160,4 +160,10 @@ body {
 
 .attribution a:hover {
   text-decoration: underline;
+}
+
+@media all and (max-height: 600px) {
+  .container {
+    height: auto;
+  }
 }
