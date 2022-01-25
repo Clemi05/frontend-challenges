@@ -53,7 +53,7 @@ body {
   height: 310px;
   position: absolute;
   content: "";
-  background-color: hsl(178, 100%, 50%, 0.5);
+  background-color: hsl(340, 68%, 50%, 0.5);
   border-radius: 10px;
   transform: scale(0);
 }
@@ -90,8 +90,7 @@ body {
 }
 
 .card-nft-title:hover {
-  color: hsl(178, 100%, 50%);
-
+  color: hsl(340, 68%, 50%);
 }
 
 /* Details */
@@ -108,7 +107,7 @@ body {
 }
 
 .card-nft-price {
-  color: hsl(178, 100%, 50%);
+  color: hsl(340, 68%, 50%);
   gap: 0.5em;
 }
 
@@ -117,7 +116,7 @@ body {
   gap: 0.5em;
 }
 
-/* Avatar / Creator */
+/* Avatar */
 .card-nft-creator {
   display: flex;
   justify-content: flex-start;
@@ -131,7 +130,7 @@ body {
   width: 35px;
   border-radius: 50%;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  border: #fff 1px solid;
 }
 
 .card-nft-creator span {
@@ -140,7 +139,7 @@ body {
 }
 
 .card-nft-creator span:hover {
-  color: hsl(178, 100%, 50%);
+  color: hsl(340, 68%, 50%);
 }
 
 /* Attribution */
@@ -154,7 +153,7 @@ body {
 .attribution a {
   text-decoration: none;
   font-weight: bold;
-  color: hsl(178, 100%, 50%);
+  color: hsl(340, 68%, 50%);
   transition: color 150ms ease-out;
 }
 
