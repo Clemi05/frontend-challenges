@@ -1,5 +1,13 @@
+
+
 /* Navbar */
-nav ul li {
+header nav ul li {
   display: inline;
   padding: 0 10px;
+}
+
+/* Aside */
+
+.advert img {
+  width: 20%;
 }
