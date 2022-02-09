@@ -1,5 +1,3 @@
-
-
 /* Navbar */
 header nav ul li {
   display: inline;
@@ -7,7 +5,17 @@ header nav ul li {
 }
 
 /* Aside */
-
 .advert img {
   width: 20%;
+}
+
+/* Figure */
+
+figure img {
+  width: 20%;
+}
+
+/* css/legacy considerations */
+section, article, aside, footer, header, nav {
+  display: block;
 }
