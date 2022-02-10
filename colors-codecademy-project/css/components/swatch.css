@@ -5,16 +5,24 @@
 }
 
 /* Red lightness decreases by 15 */
-.reds .lightness .color-1 {
-  background-color: hsl(350, 100%, 80%);
-  transition: background-color 1s ease;
+.reds .lightness .color-1,
+.reds .lightness .color-2,
+.reds .lightness .color-3,
+.reds .lightness .color-4,
+.reds .lightness .color-5 {
+  background-color: #fff;
 }
 
-.reds .lightness .color-2 {
+/* Red lightness hover */
+.reds .lightness .color-1:hover {
+  background-color: hsl(350, 100%, 80%);
+}
+
+.reds .lightness .color-2:hover {
   background-color: hsl(350, 100%, 65%);
 }
 
-.reds .lightness .color-3 {
+.reds .lightness .color-3:hover {
   background-color: hsl(350, 100%, 50%);
 }
 
@@ -26,8 +34,8 @@
   background-color: hsl(350, 100%, 20%);
 }
 
-/* Red lightness hover */
-.reds .lightness .color-1:hover {
+/* Red lightness toggled */
+.reds .lightness.toggled .color-1 {
   background-color: hsl(350, 100%, 80%);
 }
 
