@@ -1,0 +1,164 @@
+/* Blue Swatches */
+
+.blues .base-color {
+  color: hsl(220, 100%, 50%);
+}
+
+
+/* Blue lightness */
+.blues .lightness .color-1,
+.blues .lightness .color-2,
+.blues .lightness .color-3,
+.blues .lightness .color-4,
+.blues .lightness .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+
+/* Blue lightness hover decreases by 20 */
+.blues .lightness .color-1:hover {
+  background-color: hsl(220, 100%, 90%);
+}
+
+.blues .lightness .color-2:hover {
+  background-color: hsl(220, 100%, 70%);
+}
+
+.blues .lightness .color-3:hover {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .lightness .color-4:hover {
+  background-color: hsl(220, 100%, 30%);
+}
+
+.blues .lightness .color-5:hover {
+  background-color: hsl(220, 100%, 10%);
+}
+
+/* Blue lightness toggled decreases by 20 */
+.blues .lightness.toggled .color-1 {
+  background-color: hsl(220, 100%, 90%);
+}
+
+.blues .lightness.toggled .color-2 {
+  background-color: hsl(220, 100%, 70%);
+}
+
+.blues .lightness.toggled .color-3 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .lightness.toggled .color-4 {
+  background-color: hsl(220, 100%, 30%);
+}
+
+.blues .lightness.toggled .color-5 {
+  background-color: hsl(220, 100%, 10%);
+}
+
+/* Blue saturation */
+.blues .saturation .color-1,
+.blues .saturation .color-2,
+.blues .saturation .color-3,
+.blues .saturation .color-4,
+.blues .saturation .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+/* Blue saturation hover decreases by 20 */
+.blues .saturation .color-1:hover {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .saturation .color-2:hover {
+  background-color: hsl(220, 80%, 50%);
+}
+
+.blues .saturation .color-3:hover {
+  background-color: hsl(220, 60%, 50%);
+}
+
+.blues .saturation .color-4:hover {
+  background-color: hsl(220, 40%, 50%);
+}
+
+.blues .saturation .color-5:hover {
+  background-color: hsl(220, 20%, 50%);
+}
+
+/* Blue saturation toggled decreases by 20 */
+.blues .saturation.toggled .color-1 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .saturation.toggled .color-2 {
+  background-color: hsl(220, 80%, 50%);
+}
+
+.blues .saturation.toggled .color-3 {
+  background-color: hsl(220, 60%, 50%);
+}
+
+.blues .saturation.toggled .color-4 {
+  background-color: hsl(220, 40%, 50%);
+}
+
+.blues .saturation.toggled .color-5 {
+  background-color: hsl(220, 20%, 50%);
+}
+
+/* Blue hue */
+.blues .hue .color-1,
+.blues .hue .color-2,
+.blues .hue .color-3,
+.blues .hue .color-4,
+.blues .hue .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+
+/* Blue hue hover decreases by 20 */
+.blues .hue .color-1:hover {
+  background-color: hsl(260, 100%, 50%);
+}
+
+.blues .hue .color-2:hover {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.blues .hue .color-3:hover {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .hue .color-4:hover {
+  background-color: hsl(200, 100%, 50%);
+}
+
+.blues .hue .color-5:hover {
+  background-color: hsl(180, 100%, 50%);
+}
+
+/* Blue hue toggled decreases by 20 */
+.blues .hue.toggled .color-1 {
+  background-color: hsl(260, 100%, 50%);
+}
+
+.blues .hue.toggled .color-2 {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.blues .hue.toggled .color-3 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .hue.toggled .color-4 {
+  background-color: hsl(200, 100%, 50%);
+}
+
+.blues .hue.toggled .color-5 {
+  background-color: hsl(180, 100%, 50%);
+}
