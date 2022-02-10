@@ -6,7 +6,7 @@
 
 /* Red lightness decreases by 15 */
 .reds .lightness .color-1 {
-  background-color: #fff;
+  background-color: hsl(350, 100%, 80%);
   transition: background-color 1s ease;
 }
 
