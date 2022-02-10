@@ -15,6 +15,7 @@ header h1 {
   font-weight: bold;
   color: khaki;
   text-align: center;
+  margin-top: 32px;
 }
 
 /* Navbar */
