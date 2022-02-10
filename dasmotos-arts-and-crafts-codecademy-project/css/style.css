@@ -1,7 +1,10 @@
 * {
   font-family: Helvetica;
+  text-decoration: none;
+  list-style: none;
 }
 
+/* Headers */
 header {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
 }
@@ -12,6 +15,27 @@ header h1 {
   color: khaki;
   text-align: center;
 }
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+
+nav a {
+  display: inline;
+  padding: 0 10px;
+  text-decoration: none;
+  color: khaki;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Articles */
 
 article h2 {
   font-size: 32px;
