@@ -1,0 +1,162 @@
+/* Red Swatches */
+
+.reds .base-color {
+  color: hsl(350, 100%, 50%);
+}
+
+/* Red lightness */
+.reds .lightness .color-1,
+.reds .lightness .color-2,
+.reds .lightness .color-3,
+.reds .lightness .color-4,
+.reds .lightness .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+/* Red lightness hover decreases by 15 */
+.reds .lightness .color-1:hover {
+  background-color: hsl(350, 100%, 80%);
+}
+
+.reds .lightness .color-2:hover {
+  background-color: hsl(350, 100%, 65%);
+}
+
+.reds .lightness .color-3:hover {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .lightness .color-4:hover {
+  background-color: hsl(350, 100%, 35%);
+}
+
+.reds .lightness .color-5:hover {
+  background-color: hsl(350, 100%, 20%);
+}
+
+/* Red lightness toggled decreases by 15 */
+.reds .lightness.toggled .color-1 {
+  background-color: hsl(350, 100%, 80%);
+}
+
+.reds .lightness.toggled .color-2 {
+  background-color: hsl(350, 100%, 65%);
+}
+
+.reds .lightness.toggled .color-3 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .lightness.toggled .color-4 {
+  background-color: hsl(350, 100%, 35%);
+}
+
+.reds .lightness.toggled .color-5 {
+  background-color: hsl(350, 100%, 20%);
+}
+
+/* Red saturation */
+.reds .saturation .color-1,
+.reds .saturation .color-2,
+.reds .saturation .color-3,
+.reds .saturation .color-4,
+.reds .saturation .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+/* Red saturation hover decreases by 15 */
+.reds .saturation .color-1:hover {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .saturation .color-2:hover {
+  background-color: hsl(350, 85%, 50%);
+}
+
+.reds .saturation .color-3:hover {
+  background-color: hsl(350, 70%, 50%);
+}
+
+.reds .saturation .color-4:hover {
+  background-color: hsl(350, 55%, 50%);
+}
+
+.reds .saturation .color-5:hover {
+  background-color: hsl(350, 40%, 50%);
+}
+
+/* Red saturation toggled */
+.reds .saturation.toggled .color-1 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .saturation.toggled .color-2 {
+  background-color: hsl(350, 85%, 50%);
+}
+
+.reds .saturation.toggled .color-3 {
+  background-color: hsl(350, 70%, 50%);
+}
+
+.reds .saturation.toggled .color-4 {
+  background-color: hsl(350, 55%, 50%);
+}
+
+.reds .saturation.toggled .color-5 {
+  background-color: hsl(350, 40%, 50%);
+}
+
+/* Red hue */
+.reds .hue .color-1,
+.reds .hue .color-2,
+.reds .hue .color-3,
+.reds .hue .color-4,
+.reds .hue .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+/* Red hue hover increases by 15 */
+.reds .hue .color-1:hover {
+  background-color: hsl(320, 100%, 50%);
+}
+
+.reds .hue .color-2:hover {
+  background-color: hsl(335, 100%, 50%);
+}
+
+.reds .hue .color-3:hover {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .hue .color-4:hover {
+  background-color: hsl(5, 100%, 50%);
+}
+
+.reds .hue .color-5:hover {
+  background-color: hsl(20, 100%, 50%);
+}
+
+/* Red hue toggled increases by 15 */
+
+.reds .hue.toggled .color-1 {
+  background-color: hsl(320, 100%, 50%);
+}
+
+.reds .hue.toggled .color-2 {
+  background-color: hsl(335, 100%, 50%);
+}
+
+.reds .hue.toggled .color-3 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .hue.toggled .color-4 {
+  background-color: hsl(5, 100%, 50%);
+}
+
+.reds .hue.toggled .color-5 {
+  background-color: hsl(20, 100%, 50%);
+}
