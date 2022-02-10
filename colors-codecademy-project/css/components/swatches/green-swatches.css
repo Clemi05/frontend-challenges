@@ -1,0 +1,165 @@
+/* Green Swatches */
+
+.greens .base-color {
+  color: hsl(130, 100%, 50%);
+}
+
+
+/* Green lightness */
+.greens .lightness .color-1,
+.greens .lightness .color-2,
+.greens .lightness .color-3,
+.greens .lightness .color-4,
+.greens .lightness .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+
+/* Green lightness hover decreases by 20 */
+.greens .lightness .color-1:hover {
+  background-color: hsl(103, 100%, 90%);
+}
+
+.greens .lightness .color-2:hover {
+  background-color: hsl(103, 100%, 70%);
+}
+
+.greens .lightness .color-3:hover {
+  background-color: hsl(103, 100%, 50%);
+}
+
+.greens .lightness .color-4:hover {
+  background-color: hsl(103, 100%, 30%);
+}
+
+.greens .lightness .color-5:hover {
+  background-color: hsl(104, 100%, 10%);
+}
+
+/* Green lightness toggled decreases by 20 */
+.greens .lightness.toggled .color-1 {
+  background-color: hsl(103, 100%, 90%);
+}
+
+.greens .lightness.toggled .color-2 {
+  background-color: hsl(103, 100%, 70%);
+}
+
+.greens .lightness.toggled .color-3 {
+  background-color: hsl(103, 100%, 50%);
+}
+
+.greens .lightness.toggled .color-4 {
+  background-color: hsl(103, 100%, 30%);
+}
+
+.greens .lightness.toggled .color-5 {
+  background-color: hsl(104, 100%, 10%);
+}
+
+
+/* Green saturation */
+.greens .saturation .color-1,
+.greens .saturation .color-2,
+.greens .saturation .color-3,
+.greens .saturation .color-4,
+.greens .saturation .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+/* Green saturation hover decreases by 20 */
+.greens .saturation .color-1:hover {
+  background-color: hsl(130, 100%, 50%);
+}
+
+.greens .saturation .color-2:hover {
+  background-color: hsl(130, 80%, 50%);
+}
+
+.greens .saturation .color-3:hover {
+  background-color: hsl(130, 60%, 50%);
+}
+
+.greens .saturation .color-4:hover {
+  background-color: hsl(130, 40%, 50%);
+}
+
+.greens .saturation .color-5:hover {
+  background-color: hsl(131, 20%, 50%);
+}
+
+/* Green saturation toggled decreases by 20 */
+.greens .saturation.toggled .color-1 {
+  background-color: hsl(130, 100%, 50%);
+}
+
+.greens .saturation.toggled .color-2 {
+  background-color: hsl(130, 80%, 50%);
+}
+
+.greens .saturation.toggled .color-3 {
+  background-color: hsl(130, 60%, 50%);
+}
+
+.greens .saturation.toggled .color-4 {
+  background-color: hsl(130, 40%, 50%);
+}
+
+.greens .saturation.toggled .color-5 {
+  background-color: hsl(131, 20%, 50%);
+}
+
+
+/* Green hue */
+.greens .hue .color-1,
+.greens .hue .color-2,
+.greens .hue .color-3,
+.greens .hue .color-4,
+.greens .hue .color-5 {
+  background-color: #fff;
+  transition: background-color .5s ease;
+}
+
+/* Green hue hover increases by 22 */
+.greens .hue .color-1:hover {
+  background-color: hsl(86, 100%, 50%);
+}
+
+.greens .hue .color-2:hover {
+  background-color: hsl(108, 100%, 50%);
+}
+
+.greens .hue .color-3:hover {
+  background-color: hsl(130, 100%, 50%);
+}
+
+.greens .hue .color-4:hover {
+  background-color: hsl(152, 100%, 50%);
+}
+
+.greens .hue .color-5:hover {
+  background-color: hsl(174, 100%, 50%);
+}
+
+/* Green hue toggled increases by 22 */
+.greens .hue.toggled .color-1 {
+  background-color: hsl(86, 100%, 50%);
+}
+
+.greens .hue.toggled .color-2 {
+  background-color: hsl(108, 100%, 50%);
+}
+
+.greens .hue.toggled .color-3 {
+  background-color: hsl(130, 100%, 50%);
+}
+
+.greens .hue.toggled .color-4 {
+  background-color: hsl(152, 100%, 50%);
+}
+
+.greens .hue.toggled .color-5 {
+  background-color: hsl(174, 100%, 50%);
+}
