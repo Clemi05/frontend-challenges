@@ -35,6 +35,16 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: white;
+}
+
+/* Images */
+
+img, header {
+  border-radius: 20px;
+}
+
 /* Articles */
 
 article h2 {
@@ -48,6 +58,8 @@ article span {
   color: blue;
 }
 
+/* IDs */
+
 #brushes {
   background-color: mediumspringgreen;
 }
@@ -58,4 +70,8 @@ article span {
 
 #paint {
   background-color: skyblue;
+}
+
+#brushes, #frames, #paint {
+  padding: 10px 0 10px 10px;
 }
