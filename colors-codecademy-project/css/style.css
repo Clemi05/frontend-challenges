@@ -93,10 +93,9 @@ strong {
   width: 60%;
 }
 
-.color .swatches button {
+.color .swatches h4 {
   margin-bottom: 1.25rem;
-  line-height: 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #9b9b9b;
 }
