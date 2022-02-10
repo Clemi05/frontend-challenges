@@ -17,7 +17,7 @@ buttonGreen.addEventListener('click', () => {
 });
 
 /* Toggle Blue Swatches */
-buttonRed.addEventListener('click', () => {
+buttonBlue.addEventListener('click', () => {
   document.getElementById('blue-lightness').classList.toggle('toggled');
   document.getElementById('blue-saturation').classList.toggle('toggled');
   document.getElementById('blue-hue').classList.toggle('toggled');
