@@ -5,6 +5,7 @@
 }
 
 /* Headers */
+
 header {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
 }
@@ -24,7 +25,6 @@ nav {
   align-items: center;
   padding: 20px 0;
 }
-
 
 nav a {
   display: inline;
