@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans&display=swap');
 
+/* Components files */
+
+@import url("../css/components/header.css");
+@import url("../css/components/banner.css");
 /* Universal Styles */
 
 html {
@@ -36,54 +40,6 @@ strong {
   }
 }
 
-/* Header */
-
-header {
-  display: flex;
-  align-items: center;
-  padding: .5rem 3.75rem;
-  background-color: #ff8000;
-}
-
-header .logo-small {
-  display: none;
-}
-
-header .logo-small,
-header .logo-big {
-  flex-grow: 1;
-}
-
-nav li {
-  display: inline;
-  padding-right: 2rem;
-}
-
-nav li:last-child {
-  padding-right: 0;
-}
-
-@media only screen and (max-width: 990px) {
-  header .logo-big {
-    display: none;
-  }
-
-  header .logo-small {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  header {
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  header .logo-small {
-    margin-bottom: 1rem;
-  }
-}
 
 /* Banner */
 
