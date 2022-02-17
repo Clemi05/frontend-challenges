@@ -1,5 +1,6 @@
 /* Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* General CSS*/
 body {
@@ -106,9 +107,33 @@ body {
   font-weight: 700;
 }
 
+/* Font Ubuntu */
+
+.font-3 {
+  font-family: Ubuntu, sans-serif;
+}
+
+.ubuntu {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.ubuntu-regular {
+  font-weight: 400;
+}
+
+.ubuntu-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-bold {
+  font-weight: 700;
+}
+
 /* Font Raleway */
 
-.font-2 {
+.font-4 {
   font-family: Raleway, sans-serif;
 }
 
