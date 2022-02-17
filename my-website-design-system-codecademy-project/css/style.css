@@ -4,6 +4,7 @@
 /* General CSS*/
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   margin: 0 10%;
 }
 
@@ -12,11 +13,38 @@ body {
   margin: 10px auto;
 }
 
+/* Colors */
+
 .container-colors {
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.color-1, .color-2, .color-3, .color-4 {
+  width: 100%;
+  min-height: 100px;
   display: inline-block;
+  text-align: center;
 }
 
 .color-1 {
   background-color: #C4A8FF;
+}
+
+.color-2 {
+  background-color: #664EAE;
+}
+
+.color-3 {
+  background-color: #1A0554;
+}
+
+.color-4 {
+  background-color: #0C0B13;
+}
+
+.color-1 p, .color-2 p, .color-3 p, .color-4 p {
+  color: #FFFFFF;
 }
