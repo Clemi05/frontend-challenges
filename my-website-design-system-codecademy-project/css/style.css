@@ -23,36 +23,36 @@ body {
 
 /* Colors */
 
-.color-1, .color-2, .color-3, .color-4 {
+.first-color, .second-color, .third-color, .fourth-color {
   width: 100%;
   min-height: 100px;
   display: inline-block;
   text-align: center;
 }
 
-.color-1 {
+.first-color {
   background-color: #C4A8FF;
 }
 
-.color-2 {
+.second-color {
   background-color: #664EAE;
 }
 
-.color-3 {
+.third-color {
   background-color: #1A0554;
 }
 
-.color-4 {
+.fourth-color {
   background-color: #0C0B13;
 }
 
-.color-1 p, .color-2 p, .color-3 p, .color-4 p {
+.first-color p, .second-color p, .third-color p, .fourth-color p {
   color: #FFFFFF;
 }
 
 /* Fonts */
 
-.font-1, .font-2, .font-3 {
+.first-font, .second-font, .third-font, .fourth-font {
   width: 100%;
   min-height: 100px;
   display: inline-block;
@@ -60,7 +60,7 @@ body {
 
 /* Font Roboto */
 
-.font-1 {
+.first-font {
   font-family: Roboto, sans-serif;
 }
 
@@ -84,7 +84,7 @@ body {
 
 /* Font Montserrat */
 
-.font-2 {
+.second-font {
   font-family: Montserrat, sans-serif;
 }
 
@@ -109,7 +109,7 @@ body {
 
 /* Font Ubuntu */
 
-.font-3 {
+.third-font, .fourth-font {
   font-family: Ubuntu, sans-serif;
 }
 
@@ -133,7 +133,7 @@ body {
 
 /* Font Raleway */
 
-.font-4 {
+.fourth-font {
   font-family: Raleway, sans-serif;
 }
 
