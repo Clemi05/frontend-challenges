@@ -1,5 +1,5 @@
 /* Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* General CSS*/
 body {
@@ -13,14 +13,14 @@ body {
   margin: 10px auto;
 }
 
-/* Colors */
-
-.container-colors {
+.card  {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
 }
+
+/* Colors */
 
 .color-1, .color-2, .color-3, .color-4 {
   width: 100%;
@@ -50,3 +50,82 @@ body {
 }
 
 /* Fonts */
+
+.font-1, .font-2, .font-3 {
+  width: 100%;
+  min-height: 100px;
+  display: inline-block;
+}
+
+/* Font Roboto */
+
+.font-1 {
+  font-family: Roboto, sans-serif;
+}
+
+.roboto {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.roboto-regular {
+  font-weight: 400;
+}
+
+.roboto-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-weight: 700;
+}
+
+/* Font Montserrat */
+
+.font-2 {
+  font-family: Montserrat, sans-serif;
+}
+
+
+.montserrat {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.montserrat-regular {
+  font-weight: 400;
+}
+
+.montserrat-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat-bold {
+  font-weight: 700;
+}
+
+/* Font Raleway */
+
+.font-2 {
+  font-family: Raleway, sans-serif;
+}
+
+.raleway {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.raleway-regular {
+  font-weight: 400;
+}
+
+.raleway-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.raleway-bold {
+  font-weight: 700;
+}
