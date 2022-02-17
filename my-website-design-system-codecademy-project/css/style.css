@@ -1,5 +1,5 @@
 /* Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
 
 /* General CSS*/
 body {
@@ -48,3 +48,5 @@ body {
 .color-1 p, .color-2 p, .color-3 p, .color-4 p {
   color: #FFFFFF;
 }
+
+/* Fonts */
