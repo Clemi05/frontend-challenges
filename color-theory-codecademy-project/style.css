@@ -258,7 +258,7 @@ textarea {
   max-height: 450px;
   overflow: hidden;
   float: left;
-  display: inline-block;
+  display: block;
 }
 
 .image-box img {
@@ -385,7 +385,7 @@ blockquote footer {
 
   .photo-contact-form input {
     width: 48%;
-    display: inline-block;
+    display: block;
     float: left;
   }
 
