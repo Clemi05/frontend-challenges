@@ -153,6 +153,10 @@ img {
   color: #fff;
 }
 
+.site-header-right li a:hover {
+  opacity: 0.5;
+}
+
 /* Site Footer */
 .footer {
   background-color: #495371;
