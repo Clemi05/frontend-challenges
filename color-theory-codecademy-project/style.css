@@ -270,10 +270,11 @@ textarea {
 .image-box img {
   width: 100%;
   height: auto;
+  transition: transform .2s;
 }
 
 .image-box img:hover {
-  opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .photo-blockquote {
