@@ -272,6 +272,10 @@ textarea {
   height: auto;
 }
 
+.image-box img:hover {
+  opacity: 0.8;
+}
+
 .photo-blockquote {
   background-color: #74959A;
   margin-top: -80px;
