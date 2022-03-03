@@ -282,9 +282,9 @@ textarea {
   max-height: 450px;
 }
 
-.flip-image:hover .flip-image-inner {
+/* .flip-image:hover .flip-image-inner {
   transform: rotateY(180deg);
-}
+} */
 
 .flip-image-front, .flip-image-back {
   width: 100%;
